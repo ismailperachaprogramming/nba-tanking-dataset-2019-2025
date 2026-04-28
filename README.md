@@ -47,6 +47,3 @@ See `data_dictionary.pdf` for full column definitions.
 
 ## Tools
 - Kaggle (dataset hosting)
-
-## Contact
-Feel free to reach out or connect if you're interested in sports analytics or data science.
