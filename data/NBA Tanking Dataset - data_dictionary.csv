@@ -1,0 +1,20 @@
+column_name,description,examples_and_or_values
+season,NBA season (format: YYYY-YY),e.g. 2019-20 or 2025-26
+team,Team name,Los Angeles Lakers or Boston Celtics
+conference,Conference of Team,Eastern or Western
+win_pct,Win Percentage,Decimal (0-1)
+wins,Total wins in a season,Integer (0-82)
+losses,Total losses in a season,Integer (0-82)
+league_rank,Rank across entire NBA for teams that missed playoffs,Integer (17-30)
+lottery_seed,Draft lottery seed,"1 = worst team, 14 = highest lottery team record "
+actual_pick,Draft position received after lottery,"1 = highest lottery pick, 14 = lowest lottery pick"
+pick_jump,Difference between seed and pick,lottery_seed - actual_pick
+had_own_pick,Whether team's first round pick was used,"1 = yes, 0 = no"
+pick_conveyed,Whether pick was sent to another team,"1 = yes, 0 = no"
+pick_team,Team that ultimately used the pick,Final team after trades
+playoffs_next_year,Made playoffs the following season,"1 = yes, 0 = no"
+playoffs_in_2yrs,Made playoffs within 2 seasons,"1 = yes, 0 = no"
+playoffs_in_3yrs,Made playoffs within 3 seasons,"1 = yes, 0 = no"
+made_playoffs_within_3yrs,Made playoffs in any of next 3 seasons,"1 = yes, 0 = no"
+years_to_playoffs,Years until next playoff appearance,"Integer: 1 = next season, 2 = within 2 years, 3 = within 3 years, NaN = has not made playoffs yet or not yet observed"
+best_win_pct_next_3yrs,Best win percentage achieved in the next 3 seasons,Decimal (0–1)
